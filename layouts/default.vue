@@ -150,9 +150,9 @@
               <a href="index.html">
                 <!-- Logo area -->
                 <div class="logo">
-                  <img class="img-responsive" src="../assets/images/etc/logo.png" alt=""/>
+                  <img class="img-responsive" src="../assets/logo.png" alt=""/>
                   <!-- Heading -->
-                  <h1>ChfesTable</h1>
+                  <h1>FATBOY SANDWICHES</h1>
                   <!-- Paragraph -->
                   <p>Facility ester expedite instinct.</p>
                 </div>
@@ -388,3 +388,8 @@
 
 <style>
 </style>
+
+<script>
+  export default {
+  }
+</script>

@@ -5,7 +5,7 @@
         <ul>
           <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
             <!-- MAIN IMAGE -->
-            <img src="../assets/images/slider/slide2.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom"
+            <img src="../assets/images/slider/slide2.png" alt="" data-bgfit="cover" data-bgposition="center bottom"
                  data-bgrepeat="no-repeat">
 
             <!-- LAYERS -->
@@ -145,7 +145,7 @@
                  data-endspeed="500"
                  data-endeasing="Power3.easeInOut"
                  data-captionhidden="on"
-                 style="z-index:5">CakeFactory
+                 style="z-index:5">Fatboy Sandwiches
             </div>
             <!-- LAYER NR. 2 -->
             <div class="tp-caption customin customout"
@@ -283,7 +283,7 @@
                  data-elementdelay="0.08"
                  data-endelementdelay="0.08"
                  data-endspeed="500"
-                 style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">Hamburger
+                 style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">Sandwiches
             </div>
             <!-- LAYER NR. 5 -->
             <div
@@ -307,7 +307,7 @@
           </li>
           <li data-transition="cube" data-slotamount="7" data-masterspeed="600">
             <!-- MAIN IMAGE -->
-            <img src="../assets/images/slider/slide2.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom"
+            <img src="../assets/images/slider/slide2.png" alt="" data-bgfit="cover" data-bgposition="center bottom"
                  data-bgrepeat="no-repeat">
             <!-- LAYERS NR. 1 -->
             <div class="tp-caption lfl"
@@ -1097,6 +1097,7 @@
 
 <script>
   export default {
+    transition: 'slide',
     name: 'index',
     mounted() {
       /* ******************************************** */

@@ -66,6 +66,11 @@ module.exports = {
     '~/assets/css/prettyPhoto.css',
     '~/assets/css/font-awesome.min.css',
     '~/assets/css/less-style.css',
-    '~/assets/css/style.css'
-  ]
+    '~/assets/css/style.css',
+    '~/css/main.css'
+  ],
+  cache: {
+    max: 1000,
+    maxAge: 900000
+  },
 }
