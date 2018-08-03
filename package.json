@@ -4,6 +4,12 @@
   "description": "Nuxt.js project",
   "author": "sorieil <web@webis.me>",
   "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "4040"
+    }
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

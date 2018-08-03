@@ -165,6 +165,7 @@ table { background: #fff; }
 }
 
 .header .header-search{
+  display: none;
 	max-width:200px;
 	margin: 0 auto;
 	margin-top: 5px;
@@ -354,7 +355,7 @@ table { background: #fff; }
  * Cart Link
  */
 
-.btn-cart-md { float: right; }
+.btn-cart-md { display: none; float: right; }
 
 .btn-cart-md a i {
 	display: inline-block;

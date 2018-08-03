@@ -60,12 +60,12 @@
                 <!-- Header top left content contact -->
                 <div class="header-contact">
                   <!-- Contact number -->
-                  <span><i class="fa fa-phone red"></i> 888-888-8888</span>
+                  <span><i class="fa fa-phone red"></i><a href="tel:0507-1314-5150">0507-1314-5150</a></span>
                 </div>
               </div>
               <div class="col-md-4 col-sm-4">
                 <!-- Header top right content search box -->
-                <div class=" header-search">
+                <div class="header-search">
                   <form class="form" role="form">
                     <div class="input-group">
                       <input type="text" class="form-control" placeholder="Search...">
@@ -176,60 +176,15 @@
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                      <li><a href="index.html"><img src="../assets/images/nav-menu/nav1.jpg" class="img-responsive"
+                      <li><nuxt-link to="/"><img src="../assets/images/nav-menu/nav1.jpg" class="img-responsive"
                                                     alt=""/>
-                        Home</a>
+                        Home</nuxt-link>
                       </li>
                       <li class="dropdown hidden-xs">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img
+                        <nuxt-link to="/menu" class="dropdown-toggle" data-toggle="dropdown"><img
                           src="../assets/images/nav-menu/nav2.jpg"
                           class="img-responsive" alt=""/>
-                          Menu <b class="caret"></b></a>
-                        <ul class="dropdown-menu dropdown-md">
-                          <li>
-                            <div class="row">
-                              <div class="col-md-4 col-sm-6">
-                                <!-- Menu Item -->
-                                <div class="menu-item">
-                                  <!-- Heading -->
-                                  <h3>Vegetarian</h3>
-                                  <!-- Image -->
-                                  <img src="../assets/images/dish/dish1.jpg" class="img-responsive" alt=""/>
-                                  <!-- Paragraph -->
-                                  <p>Sea nut perspicacity under omni piste natures mirror of there with consequent.</p>
-                                  <!-- Button -->
-                                  <a href="menu.html" class="btn btn-danger btn-xs">View Menu</a>
-                                </div>
-                              </div>
-                              <div class="col-md-4 col-sm-6">
-                                <!-- Menu Item -->
-                                <div class="menu-item">
-                                  <!-- Heading -->
-                                  <h3>Non-Vegetarian</h3>
-                                  <!-- Image -->
-                                  <img src="../assets/images/dish/dish2.jpg" class="img-responsive" alt=""/>
-                                  <!-- Paragraph -->
-                                  <p>Sea nut perspicacity under omni piste natures mirror as precode consequent.</p>
-                                  <!-- Button -->
-                                  <a href="menu.html" class="btn btn-danger btn-xs">View Menu</a>
-                                </div>
-                              </div>
-                              <div class="col-md-4">
-                                <!-- Menu Item -->
-                                <div class="menu-item">
-                                  <!-- Heading -->
-                                  <h3>Special Menu</h3>
-                                  <!-- Image -->
-                                  <img src="../assets/images/dish/dish3.jpg" class="img-responsive" alt=""/>
-                                  <!-- Paragraph -->
-                                  <p>Sea nut perspicacity under omni piste natures mirror consequent.</p>
-                                  <!-- Button -->
-                                  <a href="menu.html" class="btn btn-danger btn-xs">View Menu</a>
-                                </div>
-                              </div>
-                            </div>
-                          </li>
-                        </ul>
+                          Menu</nuxt-link>
                       </li>
                       <li class="dropdown visible-xs">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Menu <b class="caret"></b></a>
@@ -239,8 +194,8 @@
                           <li><a href="menu.html">Special Menu</a></li>
                         </ul>
                       </li>
-                      <li><a href="gallery.html"><img src="../assets/images/nav-menu/nav3.jpg" class="img-responsive"
-                                                      alt=""/> Gallery</a>
+                      <li><nuxt-link to="/gallery"><img src="../assets/images/nav-menu/nav3.jpg" class="img-responsive"
+                                                      alt=""/> Gallery</nuxt-link>
                       </li>
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img
@@ -297,18 +252,6 @@
                 </div>
                 <!-- Paragraph -->
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
-                <hr />
-                <!-- Heading -->
-                <h6>On-line Payment Clients</h6>
-                <!-- Images -->
-                <a href="#"><img class="payment img-responsive" src="../assets/images/payment/2co.gif" alt="" /></a>
-                <a href="#"><img class="payment img-responsive" src="../assets/images/payment/authorizenet.gif" alt="" /></a>
-                <a href="#"><img class="payment img-responsive" src="../assets/images/payment/discover.gif" alt="" /></a>
-                <a href="#"><img class="payment img-responsive" src="../assets/images/payment/egold.gif" alt="" /></a>
-                <a href="#"><img class="payment img-responsive" src="../assets/images/payment/mastercard.gif" alt="" /></a>
-                <a href="#"><img class="payment img-responsive" src="../assets/images/payment/paypal.gif" alt="" /></a>
-                <a href="#"><img class="payment img-responsive" src="../assets/images/payment/visa.gif" alt="" /></a>
-                <a href="#"><img class="payment img-responsive" src="../assets/images/payment/worldpay.gif" alt="" /></a>
               </div> <!--/ Footer widget end -->
             </div>
             <div class="col-md-3 col-sm-6">
