@@ -20,9 +20,6 @@ module.exports = {
     script: [
       { src: '/js/jquery.js' },
       { src: '/js/bootstrap.min.js'},
-      { src: '/js/jquery.themepunch.tools.min.js'},
-      { src: '/js/jquery.themepunch.revolution.min.js'},
-      { src: '/js/jquery.flexslider-min.js'},
       { src: '/js/jquery.prettyPhoto.js'},
       { src: '/js/respond.min.js'},
       { src: '/js/html5shiv.js'},
@@ -60,11 +57,11 @@ module.exports = {
     ]
   },
   css: [
-    '~/assets/css/bootstrap.min.css',
-    '~/assets/css/prettyPhoto.css',
-    '~/assets/css/font-awesome.min.css',
-    '~/assets/css/less-style.css',
-    '~/assets/css/style.css',
+    '~/static/css/bootstrap.min.css',
+    '~/static/css/prettyPhoto.css',
+    '~/static/css/font-awesome.min.css',
+    '~/static/css/less-style.css',
+    '~/static/css/style.css',
     '~/css/main.css'
   ],
   cache: {
@@ -72,18 +69,3 @@ module.exports = {
     maxAge: 900000
   },
 }
-
-
-
-/**
- * <link href="css/bootstrap.min.css" rel="stylesheet">
- <!-- Portfolio CSS -->
- <link href="css/prettyPhoto.css" rel="stylesheet">
- <!-- Font awesome CSS -->
- <link href="css/font-awesome.min.css" rel="stylesheet">
- <!-- Custom Less -->
- <link href="css/less-style.css" rel="stylesheet">
- <!-- Custom CSS -->
- <link href="css/style.css" rel="stylesheet">
- <!--[if IE]><link rel="stylesheet" href="css/ie-style.css"><![endif]-->
- */

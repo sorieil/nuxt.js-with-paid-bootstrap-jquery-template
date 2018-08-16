@@ -1139,6 +1139,7 @@ div.ppt { display:none !important; }
 }
 
 .inner-menu .menu-list h3 {
+  position: relative;
 	margin: 0;
 	padding-bottom: 6px;
 	font-size: 30px;
@@ -1155,7 +1156,7 @@ div.ppt { display:none !important; }
 
 .inner-menu .menu-list .menu-list-item h4 {
 	margin: 0;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 23px;
 }
 

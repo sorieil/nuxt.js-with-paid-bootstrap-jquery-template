@@ -60,7 +60,7 @@
                 <!-- Header top left content contact -->
                 <div class="header-contact">
                   <!-- Contact number -->
-                  <span><i class="fa fa-phone red"></i><a href="tel:0507-1314-5150">0507-1314-5150</a></span>
+                  <span><i class="fa fa-phone red"></i><a href="tel:02-549-5150">02-549-5150</a></span>
                 </div>
               </div>
               <div class="col-md-4 col-sm-4">
@@ -82,9 +82,9 @@
                 <div class="btn-cart-md">
                   <a class="cart-link" href="#">
                     <!-- Image -->
-                    <img class="img-responsive" src="../assets/images/etc/cart.png" alt=""/>
+                    <img class="img-responsive" src="../static/images/etc/cart.png" alt=""/>
                     <!-- Heading -->
-                    <h4>Shopping Cart</h4>
+                    <h4>Delivery</h4>
                     <span>3 items $489/-</span>
                     <div class="clearfix"></div>
                   </a>
@@ -147,7 +147,7 @@
           <div class="row">
             <div class="col-md-4 col-sm-5">
               <!-- Link -->
-              <a href="/">
+              <nuxt-link to="/">
                 <!-- Logo area -->
                 <div class="logo">
                   <img class="img-responsive" src="../assets/logo.png" alt=""/>
@@ -156,7 +156,7 @@
                   <!-- Paragraph -->
                   <p>Facility ester expedite instinct.</p>
                 </div>
-              </a>
+              </nuxt-link>
             </div>
             <div class="col-md-8 col-sm-7">
               <!-- Navigation -->
@@ -180,55 +180,24 @@
                                                     alt=""/>
                         Home</nuxt-link>
                       </li>
-                      <li class="dropdown hidden-xs">
+                      <li>
                         <nuxt-link to="/menu" class="dropdown-toggle" data-toggle="dropdown"><img
                           src="../assets/images/nav-menu/nav2.jpg"
                           class="img-responsive" alt=""/>
                           Menu</nuxt-link>
                       </li>
-                      <li class="dropdown visible-xs">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Menu <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="menu.html">Vegetarian</a></li>
-                          <li><a href="menu.html">Non Vegetarian</a></li>
-                          <li><a href="menu.html">Special Menu</a></li>
-                        </ul>
-                      </li>
                       <li><nuxt-link to="/gallery"><img src="../assets/images/nav-menu/nav3.jpg" class="img-responsive"
                                                       alt=""/> Gallery</nuxt-link>
                       </li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img
+                      <li>
+                        <nuxt-link to="delivery"><img
                           src="../assets/images/nav-menu/nav4.jpg"
                           class="img-responsive" alt=""/>
-                          Shop <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="items.html">Shopping</a></li>
-                          <li><a href="item-single.html">Order Now</a></li>
-                          <li><a href="checkout.html">Checkout</a></li>
-                          <li><a href="reserve-seats.html">Reservation</a></li>
-                          <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
+                          Dellivery</nuxt-link>
                       </li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img
-                          src="../assets/images/nav-menu/nav5.jpg"
-                          class="img-responsive" alt=""/>
-                          Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="error.html">404 Error</a></li>
-                          <li><a href="0-base.html">Blank Page</a></li>
-                          <li><a href="blog.html">Blog</a></li>
-                          <li><a href="blog-single.html">Blog Single</a></li>
-                          <li><a href="components.html">Components</a></li>
-                          <li><a href="general.html">General</a></li>
-                          <li><a href="nutrition-info.html">Nutrition Info</a></li>
-                          <li><a href="recipe.html">Recipes</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="aboutus.html"><img src="../assets/images/nav-menu/nav6.jpg" class="img-responsive"
+                      <li><nuxt-link to="aboutus"><img src="../assets/images/nav-menu/nav6.jpg" class="img-responsive"
                                                       alt=""/>
-                        About</a></li>
+                        About</nuxt-link></li>
                     </ul>
                   </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -241,7 +210,7 @@
       <div class="footer padd">
         <div class="container">
           <div class="row">
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-6 col-sm-6">
               <!-- Footer widget -->
               <div class="footer-widget">
                 <!-- Logo area -->
@@ -254,54 +223,17 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
               </div> <!--/ Footer widget end -->
             </div>
-            <div class="col-md-3 col-sm-6">
-              <!-- Footer widget -->
-              <div class="footer-widget">
-                <!-- Heading -->
-                <h4>Famous Dishes</h4>
-                <!-- Images -->
-                <a href="#"><img class="dish img-responsive" src="../assets/images/dish/dish1.jpg" alt="" /></a>
-                <a href="#"><img class="dish img-responsive" src="../assets/images/dish/dish1.jpg" alt="" /></a>
-                <a href="#"><img class="dish img-responsive" src="../assets/images/dish/dish1.jpg" alt="" /></a>
-                <a href="#"><img class="dish img-responsive" src="../assets/images/dish/dish1.jpg" alt="" /></a>
-                <a href="#"><img class="dish img-responsive" src="../assets/images/dish/dish1.jpg" alt="" /></a>
-                <a href="#"><img class="dish img-responsive" src="../assets/images/dish/dish1.jpg" alt="" /></a>
-                <a href="#"><img class="dish img-responsive" src="../assets/images/dish/dish1.jpg" alt="" /></a>
-                <a href="#"><img class="dish img-responsive" src="../assets/images/dish/dish1.jpg" alt="" /></a>
-                <a href="#"><img class="dish img-responsive" src="../assets/images/dish/dish1.jpg" alt="" /></a>
-              </div> <!--/ Footer widget end -->
-            </div>
-            <div class="clearfix visible-sm"></div>
-            <div class="col-md-3 col-sm-6">
-              <!-- Footer widget -->
-              <div class="footer-widget">
-                <!-- Heading -->
-                <h4>Join Us Today</h4>
-                <!-- Paragraph -->
-                <p>There is no one who loves pain itself, who seeks after it and wants to have it.</p>
-                <!-- Subscribe form -->
-                <form role="form">
-                  <div class="form-group">
-                    <input class="form-control" type="text" placeholder="Your name" />
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" type="email" placeholder="Your email" />
-                  </div>
-                  <button class="btn btn-danger" type="button">Subscribe</button>
-                </form>
-              </div> <!--/ Footer widget end -->
-            </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-6 col-sm-6">
               <!-- Footer widget -->
               <div class="footer-widget">
                 <!-- Heading -->
                 <h4>Contact Us</h4>
                 <div class="contact-details">
                   <!-- Address / Icon -->
-                  <i class="fa fa-map-marker br-red"></i> <span>#768, 5th floor, N S Building,<br />Csm Block, Park Road,<br /> Bangalore - 234567</span>
+                  <i class="fa fa-map-marker br-red"></i> <span>1F, 9-4 Nonhyeon-ro 163-gil<br />Gangnam-gu, Seoul</span>
                   <div class="clearfix"></div>
                   <!-- Contact Number / Icon -->
-                  <i class="fa fa-phone br-green"></i> <span>+91 88-88-888888</span>
+                  <i class="fa fa-phone br-green"></i> <span>+82-2-549-5150</span>
                   <div class="clearfix"></div>
                   <!-- Email / Icon -->
                   <i class="fa fa-envelope-o br-lblue"></i> <span><a href="#">abc@example.com</a></span>
@@ -309,10 +241,8 @@
                 </div>
                 <!-- Social media icon -->
                 <div class="social">
-                  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                  <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                  <a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a>
+                  <a href="https://www.facebook.com/fatboysandwiches/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/fatboysandwiches" target="_blank" class="twitter"><i class="fa fa-instagram"></i></a>
                 </div>
               </div> <!--/ Footer widget end -->
             </div>
