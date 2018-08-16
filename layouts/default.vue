@@ -147,7 +147,7 @@
           <div class="row">
             <div class="col-md-4 col-sm-5">
               <!-- Link -->
-              <a href="index.html">
+              <a href="/">
                 <!-- Logo area -->
                 <div class="logo">
                   <img class="img-responsive" src="../assets/logo.png" alt=""/>
@@ -248,7 +248,7 @@
                 <div class="logo">
                   <img class="img-responsive" src="../assets/logo.png" alt="" />
                   <!-- Heading -->
-                  <h1>CakeFactory</h1>
+                  <h1>FATBOY SANDWICHES</h1>
                 </div>
                 <!-- Paragraph -->
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>

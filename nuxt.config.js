@@ -61,8 +61,6 @@ module.exports = {
   },
   css: [
     '~/assets/css/bootstrap.min.css',
-    '~/assets/css/settings.css',
-    '~/assets/css/flexslider.css',
     '~/assets/css/prettyPhoto.css',
     '~/assets/css/font-awesome.min.css',
     '~/assets/css/less-style.css',
@@ -74,3 +72,18 @@ module.exports = {
     maxAge: 900000
   },
 }
+
+
+
+/**
+ * <link href="css/bootstrap.min.css" rel="stylesheet">
+ <!-- Portfolio CSS -->
+ <link href="css/prettyPhoto.css" rel="stylesheet">
+ <!-- Font awesome CSS -->
+ <link href="css/font-awesome.min.css" rel="stylesheet">
+ <!-- Custom Less -->
+ <link href="css/less-style.css" rel="stylesheet">
+ <!-- Custom CSS -->
+ <link href="css/style.css" rel="stylesheet">
+ <!--[if IE]><link rel="stylesheet" href="css/ie-style.css"><![endif]-->
+ */
