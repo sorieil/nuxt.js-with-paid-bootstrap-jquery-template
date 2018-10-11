@@ -6,24 +6,24 @@
         <div class="container">
           <!-- Gallery elements with pretty photo -->
           <div class="gallery-content">
-            <div class="row">
-              <div class="col-md-3 col-sm-4" v-for="(item, index) in images" :key="index">
-                <!-- Separate gallery element -->
-                <div class="element">
-                  <!-- Image -->
-                  <img class="img-responsive img-thumbnail" :src="item.thumbnailUrl" alt=""/>
-                  <!-- Gallery Image Hover Effect -->
-                  <span class="gallery-img-hover"></span>
-                  <!-- Gallery Image Hover Icon -->
-                  <a :href="item.url" class="gallery-img-link" target="_blank">
-                    <i class="fa fa-search-plus hover-icon icon-left"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-link hover-icon icon-right"></i>
-                  </a>
-                </div>
+            <!--<div class="row" ref="row">-->
+            <div v-for="(item, index) in images" :key="index">
+              <!-- Separate gallery element -->
+              <div class="element">
+                <!-- Image -->
+                <img class="img-responsive img-thumbnail" :src="item.thumbnailUrl" alt=""/>
+                <!-- Gallery Image Hover Effect -->
+                <span class="gallery-img-hover"></span>
+                <!-- Gallery Image Hover Icon -->
+                <a :href="item.url" class="gallery-img-link" target="_blank">
+                  <i class="fa fa-search-plus hover-icon icon-left"></i>
+                </a>
+                <!--<a href="#">-->
+                  <!--<i class="fa fa-link hover-icon icon-right"></i>-->
+                <!--</a>-->
               </div>
             </div>
+            <!--</div>-->
           </div><!-- Separate gallery element --><!--/ End Gallery content class -->
         </div>
       </div>
@@ -60,7 +60,14 @@
 
 <style lang="scss" scoped>
   .gallery {
-
+    .gallery-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .element {
+        margin: 10px;
+      }
+    }
   }
 
 </style>
