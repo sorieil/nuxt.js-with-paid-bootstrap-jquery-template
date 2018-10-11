@@ -1,5 +1,15 @@
 const webpack = require('webpack')
 module.exports = {
+  env : {
+    FIREBASE_CONFIG: {
+      apiKey: 'AIzaSyCHm1NYsc2WqAoexKFaHTnxpLVJ5pRTXMU',
+      authDomain: 'fatboysandwichs.firebaseapp.com',
+      databaseURL: 'https://fatboysandwichs.firebaseio.com',
+      projectId: 'fatboysandwichs',
+      storageBucket: 'fatboysandwichs.appspot.com',
+      messagingSenderId: '1007153691533'
+    }
+  },
   /*
   ** Headers of the page
   */
