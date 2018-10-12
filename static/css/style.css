@@ -1034,7 +1034,7 @@ table { background: #fff; }
 	        transition: all 0.4s ease-in;
 }
 
-.gallery-content .element i.icon-left { right: 100%; margin-right: 10px; }
+.gallery-content .element i.icon-left { right: 110%; margin-right: -13px; }
 .gallery-content .element i.icon-right { left: 100%; margin-left: 10px; }
 .gallery-content .element:hover i.icon-left { right: 50%; }
 .gallery-content .element:hover i.icon-right { left: 50%; }

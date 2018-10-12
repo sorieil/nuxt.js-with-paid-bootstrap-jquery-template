@@ -411,7 +411,7 @@
         justify-content: stretch;
         align-items: start;
         .image {
-          margin: 0 20px 0 0;
+          margin: 4px;
           img {
             object-fit: contain;
             width: 100px;

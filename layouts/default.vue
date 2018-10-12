@@ -195,7 +195,7 @@
                           class="img-responsive" alt=""/>
                           Dellivery</nuxt-link>
                       </li>
-                      <li><nuxt-link to="aboutus"><img src="../assets/images/nav-menu/nav6.jpg" class="img-responsive"
+                      <li><nuxt-link to="about"><img src="../assets/images/nav-menu/nav6.jpg" class="img-responsive"
                                                       alt=""/>
                         About</nuxt-link></li>
                     </ul>
