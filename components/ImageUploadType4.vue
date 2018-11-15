@@ -11,7 +11,8 @@
       <div class="preview">
         <!--{{previewImages}}-->
         <div class="image" v-for="(item, index) in previewImages" :key="index">
-          <img :src="item.url" @click="removeImage(index)">
+          <button v-on:click.once="removeImage(index)">삭제</button>
+          <img :src="item.url">
         </div>
       </div>
       <div @click="clickAddFile" class="file-select-button">
@@ -29,7 +30,7 @@
     name: 'image-upload-type-4',
     props: {
       limitedFileUploadCount: {
-        default: 1000,
+        default: 100,
         type: Number
       },
       acceptType: {
@@ -162,7 +163,7 @@
           const file = files[i]
           // console.log(file)
           this.filePreview(file).then(result => {
-            // console.log('file preview: ', result)
+            console.log('file preview: ', result)
             if (result) {
               i++ // increase array key value
               this.fileProcess(files, i)
@@ -178,6 +179,7 @@
         // 여기에서 셀렉트 인지 아닌지 체크
         //여기에서 이미지로 저장할 데이터들의 값을 배열로 만들어서 취합한다.
         console.log(e.target.files)
+        console.log('uniqueFileNumber:', this.uniqueFileNumber)
         this.fileProcess(e.target.files, 0)
       },
       fileAdd (file) {
@@ -366,7 +368,8 @@
         }
       },
       setImportPreviews () {
-        this.uniqueFileNumber = this.tempImportPreviewImages.length
+        console.log('this.tempImportPreviewImages.length:', this.tempImportPreviewImages.size)
+        this.uniqueFileNumber = parseInt(this.tempImportPreviewImages.size, 10)
         this.tempImportPreviewImages.forEach(v => {
           console.log('v:',v.data())
           this.previewNames.push(v.data().filename)
@@ -384,7 +387,7 @@
     watch: {
       importPreviewImages: function (val) {
         this.tempImportPreviewImages = val
-        // console.log('watch: ',val)
+        console.log('watch: ',val)
         this.setImportPreviews()
       }
     }
@@ -394,21 +397,22 @@
 <style lang="scss" scoped>
   .image-upload-type-4 {
     .container {
+      max-width: 1024px;
+      min-height: 800px;
       width: 100%;
-      height: 1000px;
       background-color: #f5f5f5;
       border: solid 1px #e7e7e7;
+      margin: 20px auto;
       position: relative;
       .preview {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
         flex-wrap: wrap;
-        top: 20px;
-        left: 20px;
         position: absolute;
-        /*border: 1px solid red;*/
-        width: 80%;
-        height: 80%;
         display: flex;
-        justify-content: stretch;
+        justify-content: space-between;
         align-items: start;
         .image {
           margin: 4px;
@@ -416,6 +420,50 @@
             object-fit: contain;
             width: 100px;
           }
+          position: relative;
+
+          button {
+            cursor: pointer;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            content: '삭제';
+            text-align: center;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 50px;
+            height: 30px;
+            font-size: 14px;
+            font-weight: bold;
+            margin: auto;
+            background-color: #ffffff;
+            color: #ff0000;
+            opacity: 0;
+            visibility: hidden;
+            border: 0;
+          }
+
+          &:hover {
+            button {
+              animation: deleteButton 1s ease-in-out forwards;
+            }
+          }
+        }
+      }
+
+      @keyframes deleteButton {
+        from {
+          opacity: 0;
+          visibility: hidden;
+        }
+
+        to {
+          opacity: 1;
+          visibility: visible;
         }
       }
 

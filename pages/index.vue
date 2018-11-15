@@ -45,8 +45,8 @@
       /* ******************************************** */
       /*  JS for SLIDER REVOLUTION  */
       /* ******************************************** */
-      jQuery(document).ready(function() {
-        jQuery('.tp-banner').revolution(
+      window.jQuery(document).ready(function() {
+        window.jQuery('.tp-banner').revolution(
           {
             delay:9000,
             startheight:500,

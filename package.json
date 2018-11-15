@@ -1,7 +1,7 @@
 {
   "name": "fatboysandwiches",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "description": "NYC deli style “fat” sandwiches by NYC native, Chef @thomasrhee",
   "author": "sorieil <web@webis.me>",
   "private": true,
   "config": {

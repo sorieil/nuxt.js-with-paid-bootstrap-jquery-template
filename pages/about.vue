@@ -1,6 +1,6 @@
 <template>
     <div class="about">
-      <img src="../assets/images/about.jpg">
+      <img src="/images/chef/chef-about.jpg">
     </div>
 </template>
 

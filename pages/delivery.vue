@@ -1,6 +1,6 @@
 <template>
   <div class="delivery">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScS_1IQEbjosuqm3sffzClfzTZWfFzd99AMCrPmtOl_jY8_hA/viewform?embedded=true" style="width: 100%; height: 1950px;" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">로드 중...</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScS_1IQEbjosuqm3sffzClfzTZWfFzd99AMCrPmtOl_jY8_hA/viewform?embedded=true" style="width: 100%; height: 3280px;" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">로드 중...</iframe>
   </div>
 </template>
 
@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+    /*height: 200px;*/
   }
 
 </style>
