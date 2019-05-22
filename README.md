@@ -1,4 +1,4 @@
-# fatboysandwiches
+# Nuxt.js bootstrap, jquery template
 
 > Nuxt.js project
 
