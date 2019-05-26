@@ -1,8 +1,8 @@
 {
-  "name": "fatboysandwiches",
+  "name": "nuext.js-with-paid-bootstrap-jquery-template",
   "version": "1.0.0",
-  "description": "NYC deli style “fat” sandwiches by NYC native, Chef @thomasrhee",
-  "author": "sorieil <web@webis.me>",
+  "description": "nuext.js-with-paid-bootstrap-jquery-template",
+  "author": "jaehyuk <thesorieil@gmail.com>",
   "private": true,
   "config": {
     "nuxt": {
